@@ -406,15 +406,21 @@ export const exportToSvg = async (
     <style class="style-fonts">
       @font-face {
         font-family: "Virgil";
-        src: url("${assetPath}Virgil.woff2");
+        src: url("https://unpkg.com/@excalidraw/excalidraw@0.17.0/dist/excalidraw-assets/Virgil.woff2");
       }
       @font-face {
         font-family: "Cascadia";
-        src: url("${assetPath}Cascadia.woff2");
+        src: url("https://unpkg.com/@excalidraw/excalidraw@0.17.0/dist/excalidraw-assets/Cascadia.woff2");
+      }
+      @font-face {
+        font-family: "YaoSuiXinShouXieTi";
+        src: url("https://heap-web.oss-cn-hangzhou.aliyuncs.com/fonts/YaoSuiXinShouXieTi-2.woff2");
+        font-display: swap;
+        unicode-range: U+4E00-9FFF;
       }
       @font-face {
         font-family: "Assistant";
-        src: url("${assetPath}Assistant-Regular.woff2");
+        src: url("https://unpkg.com/@excalidraw/excalidraw@0.17.0/dist/excalidraw-assets/Assistant-Regular.woff2");
       }
     </style>
     ${exportingFrameClipPath}

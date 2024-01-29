@@ -54,8 +54,9 @@ const elements = [
   },
 ];
 
-registerFont("./public/Virgil.woff2", { family: "Virgil" });
-registerFont("./public/Cascadia.woff2", { family: "Cascadia" });
+registerFont("https://unpkg.com/@excalidraw/excalidraw@0.17.0/dist/excalidraw-assets/Virgil.woff2", { family: "Virgil" });
+registerFont("https://unpkg.com/@excalidraw/excalidraw@0.17.0/dist/excalidraw-assets/Cascadia.woff2", { family: "Cascadia" });
+registerFont("https://heap-web.oss-cn-hangzhou.aliyuncs.com/fonts/YaoSuiXinShouXieTi-2.woff2", { family: "YaoSuiXinShouXieTi" });
 
 const canvas = exportToCanvas(
   elements as any,
